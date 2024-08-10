@@ -11,7 +11,7 @@ interface IERC20 {
 contract EthTokenSwap {j
     IERC20 public token;36
     uint256 public rate;
-
+36
     constructor(address _token, uint256 _rate) {
         token = IERC20(_token);
         rate = _rate;
